@@ -244,7 +244,7 @@ h1 {
     display: none;
 }
 
-.swiper {
+.swiper, .swiper-2 {
     width: 100%;
     height: 100%;
     max-width: calc(1600px + 10%);
@@ -561,6 +561,14 @@ footer {
         background-repeat: no-repeat;
         background-position: right;
     }
+
+    .carousel-picture-1-2 {
+        background-image: url(../img/main/1F/surface-1083x609.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
     .carousel-picture-2 {
         background-image: url(../img/main/4F/1083x609.webp);
         background-size: cover;
@@ -686,6 +694,9 @@ footer {
         text-align: center;
         background-color: #E6E6E6;
     }
+
+    
+
     .buy-now-info {
         margin: 0;
     }
@@ -705,6 +716,7 @@ footer {
         position: static;
         margin: 0 auto;
     }
+
     .quicklinks-box {
         display: block;
     }
